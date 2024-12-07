@@ -8,11 +8,10 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        'fondo-cabecera': "url('/tiamant.jpg')",
       },
     },
   },
-  plugins: [],
+  plugins: [require ('tailwindcss-animated')],
 } satisfies Config;
